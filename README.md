@@ -76,6 +76,34 @@ A sophisticated Retrieval-Augmented Generation (RAG) application that enables us
    - Model and parameter configuration
    - Deployment flexibility
 
+## ⏱️ Development Time Log
+
+**Total Development Time: 3 days (24 hours)**
+
+### Development Breakdown:
+- **Planning & Research** (2-3 hours): Technology selection, architecture design, requirements analysis
+- **Core RAG Implementation** (6-8 hours): LlamaIndex integration, vector store setup, basic Q&A
+- **Advanced Document Processing** (4-5 hours): OCR integration, multi-language support, quality detection
+- **Hybrid Search Development** (3-4 hours): BM25 implementation, result ranking, deduplication
+- **UI/UX Development** (1-2 hours): Streamlit interface, chat functionality, file upload
+- **Multi-language Features** (3-4 hours): Arabic text handling, language detection, context building
+- **Testing & Debugging** (2-3 hours): Edge case handling, citation accuracy, error management
+- **Documentation & Deployment** (2-3 hours): README creation, Docker setup, cloud deployment
+
+### Key Technical Challenges Solved:
+1. **Arabic Text Extraction**: Implemented intelligent OCR fallback for garbled Arabic PDFs
+2. **Hybrid Search Optimization**: Balanced semantic and keyword search with weighted scoring
+3. **Hallucination Prevention**: Built grounding verification and confidence thresholds
+4. **Multi-language Query Processing**: Created language-aware context building and response generation
+5. **Citation Accuracy**: Developed precise page-level tracking with duplicate prevention
+6. **Production Deployment**: Configured Docker containerization and cloud deployment
+
+### Innovation Highlights:
+- **Smart Text Quality Detection**: Automatically chooses best extraction method per document
+- **Language-Aware Retrieval**: Prioritizes relevant language documents while maintaining cross-language capability
+- **Conversation Context Management**: Maintains natural dialogue flow for follow-up questions
+- **Scalable Architecture**: Modular design supporting easy scaling and feature additions
+
 ## 🚀 Quick Start
 
 ### Prerequisites
