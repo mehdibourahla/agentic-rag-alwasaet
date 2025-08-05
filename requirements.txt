@@ -1,0 +1,15 @@
+streamlit
+python-dotenv
+llama-index
+llama-index-embeddings-openai
+llama-index-llms-openai
+openai
+qdrant-client
+rank_bm25
+pdfplumber
+pdf2image
+pytesseract
+pillow
+aiofiles
+numpy
+langdetect
