@@ -1,0 +1,16 @@
+name: Keepalive
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ping Application
+        run: |
+          curl -s https://agentic-rag-alwasaet.streamlit.app/ > /dev/null
+          echo "✅ App pinged successfully at $(date)"
